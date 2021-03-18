@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gtv-l2-Otw">
+                                <rect key="frame" x="0.0" y="762" width="414" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Graf TV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="itC-2D-18w">
+                                        <rect key="frame" x="145" y="10" width="124" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="LIs-bj-znd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                        <color key="textColor" red="0.92538958790000003" green="0.92554813619999998" blue="0.92537957429999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v1.4" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsL-Cs-F36">
+                                        <rect key="frame" x="188.5" y="65" width="37" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="itC-2D-18w" firstAttribute="top" secondItem="Gtv-l2-Otw" secondAttribute="top" constant="10" id="26q-St-4Sa"/>
+                                    <constraint firstAttribute="height" constant="100" id="Mph-lo-Pe8"/>
+                                    <constraint firstItem="hsL-Cs-F36" firstAttribute="top" secondItem="itC-2D-18w" secondAttribute="bottom" constant="5" id="f40-D4-5ib"/>
+                                    <constraint firstItem="itC-2D-18w" firstAttribute="centerX" secondItem="Gtv-l2-Otw" secondAttribute="centerX" id="vjr-Ja-ocq"/>
+                                    <constraint firstItem="hsL-Cs-F36" firstAttribute="centerX" secondItem="Gtv-l2-Otw" secondAttribute="centerX" id="x7v-C7-EmE"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="QIy-Mj-8X5">
+                                <rect key="frame" x="107" y="348" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Gup-Ix-dnU"/>
+                                    <constraint firstAttribute="width" secondItem="QIy-Mj-8X5" secondAttribute="height" id="Wsj-5c-ZPv"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Gtv-l2-Otw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5wo-ab-bnB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gtv-l2-Otw" secondAttribute="bottom" id="YXh-uv-Pli"/>
+                            <constraint firstItem="QIy-Mj-8X5" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="hc9-Df-MbV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gtv-l2-Otw" secondAttribute="trailing" id="jU0-aF-zQu"/>
+                            <constraint firstItem="QIy-Mj-8X5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pdr-ov-PNT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo-1" width="3258" height="3222"/>
+    </resources>
+</document>
